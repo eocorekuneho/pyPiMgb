@@ -34,5 +34,7 @@ THIS IS REALLY REALLY WIP.
 A snapshot of the code.
 
 My original project can be found here: https://github.com/eocorekuneho/PimGB
+
 Since Raspberry Pi OS Bullseye doesn't support wiringPi anymore, I had to rewrite the whole project with pigpio, and also in Python.
+
 It's much more better than the original, C version.
