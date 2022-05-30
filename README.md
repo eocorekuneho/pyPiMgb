@@ -6,11 +6,11 @@ All versions should work, I tested and used this code on a Raspberry Pi 400.
 
 Currently it's only useful with mGB (https://github.com/defensem3ch/mGB)
 
-You can play the channels one-by-one, and change amongst them sending Program Change 0-5 on Channel 10 to the software.
+You can play the channels one-by-one, and change amongst them sending Program Change 1-5 on Channel 10 to the software.
 
-My far goal with this project is to create a small, convenient and smart USB MIDI host out from the Raspberry Pi Zero. One of its modules is this project, PimGB as a "driver" for Game Boys.
+My far goal with this project is to create a small, convenient and smart USB MIDI host out from the Raspberry Pi 400. One of its modules is this project, pyPiMgb as a "driver" for Game Boys.
 
-This software maps Channels 1-4 to Game Boy channels. It listens for commands on Channel 10, and you can use a MIDI controller (like a keyboard) on Channel 15.
+This software maps MIDI Channels 1-4 to Game Boy channels. It listens for commands on Channel 10 (PC), and you can use a MIDI controller (like a keyboard) on Channel 15.
 
 ### Wiring:
 |Game Boy Link cable PIN#|Raspberry Pi PIN# (GPIO)  |
