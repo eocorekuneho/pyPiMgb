@@ -13,7 +13,7 @@ My far goal with this project is to create a small, convenient and smart USB MID
 This software maps Channels 1-4 to Game Boy channels. It listens for commands on Channel 10, and you can use a MIDI controller (like a keyboard) on Channel 15.
 
 ### Wiring:
-|Game Boy Link cable PIN#|Raspberry Pi PIN# (wiringPi)  |
+|Game Boy Link cable PIN#|Raspberry Pi PIN# (GPIO)  |
 |--|--|
 | 3 (SIN) | 15 |
 | 5 (SCLK) | 14 |
