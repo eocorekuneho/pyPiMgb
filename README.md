@@ -4,7 +4,7 @@
 This is a small, draft like, heavily WIP project to bring the functionalities of the Arduinoboy (https://github.com/trash80/arduinoboy) to the Raspberry Pi.
 All versions should work, I tested and used this code on a Raspberry Pi 400.
 
-Currently it's only useful with mGB (https://github.com/defensem3ch/mGB)
+Currently it's only useful with mGB (https://github.com/trash80/mGB)
 
 You can play the channels one-by-one, and change amongst them sending Program Change 1-5 on Channel 10 to the software.
 
